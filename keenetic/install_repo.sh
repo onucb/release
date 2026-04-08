@@ -1,10 +1,9 @@
 #!/bin/sh
-
+rm /opt/etc/opkg/neofit.conf
 echo "Updating package list..."
 opkg update
 
 echo "Installing wget with HTTPS support..."
-opkg update
 opkg install curl wget-ssl ca-certificates
 opkg remove wget-nossl
 
@@ -39,8 +38,8 @@ esac
 echo "Architecture detected: $ARCH"
 echo "Selected feed: $FEED_URL"
 
-FEED_CONF="/opt/etc/opkg/neofit-reserv.conf"
-FEED_LINE="src/gz pegakmop-reserv $FEED_URL"
+FEED_CONF="/opt/etc/opkg/neofit.conf"
+FEED_LINE="src/gz pegakmop $FEED_URL"
 
 # Ensure the opkg directory exists
 if [ ! -d "/opt/etc/opkg" ]; then
