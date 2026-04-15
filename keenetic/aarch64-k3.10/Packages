@@ -1,0 +1,131 @@
+Package: 3x-ui
+Version: 2.8.10-2
+Depends: xray-core
+Section: net
+Architecture: aarch64-3.10
+Installed-Size: 0
+Filename: 3x-ui_2.8.10-2_aarch64-3.10.ipk
+Size: 19099902
+Maintainer: MHSanaei
+Description: Xray panel supporting multi-protocol multi-user expire day & traffic & IP limit (Vmess, Vless, Trojan, ShadowSocks, Wireguard, Tunnel, Mixed, HTTP)
+
+Package: adguardhome-go-ipset
+Version: 0.107.70
+Depends: libc, libssp, librt, libpthread, ca-bundle
+Section: net
+Architecture: aarch64-3.10
+Installed-Size: 0
+Filename: adguardhome-go-ipset_0.107.70_aarch64-3.10.ipk
+Size: 10634533
+Maintainer: Ground_Zerro, AdguardTeam
+Description: AdGuard Home fork with ipset settings in frontend.
+
+Package: hrneo
+Version: 0.23.1-1
+Depends: libc, ipset, iptables
+Section: net
+Architecture: aarch64-3.10
+Installed-Size: 1862378
+Filename: hrneo_0.23.1-1_aarch64-3.10.ipk
+Size: 1863671
+Maintainer: Ground_Zerro
+Description: HydraRoute Neo is a tool for managing traffic through VPN tunnels.
+
+Package: hrweb
+Version: 1.16.2-3
+Depends: libc
+Section: net
+Architecture: aarch64-3.10
+Installed-Size: 3101502
+Filename: hrweb_1.16.2-3_aarch64-3.10.ipk
+Size: 3013287
+Maintainer: Ground_Zerro
+Description: WebUI for HydraRoute Neo
+
+Package: hydraroute
+Version: 1.1.0-final
+Depends: ipset, iptables, adguardhome-go
+Section: net
+Architecture: aarch64-3.10
+Installed-Size: 0
+Filename: hydraroute_1.1.0-final_aarch64-3.10.ipk
+Size: 2894847
+Maintainer: Ground_Zerro
+Description: HydraRoute Classic - domain routing for Keenetic based on ipset and AGH integration + WebUI control panel
+
+Package: keenetic-vpn
+Version: 2.2.2
+Depends: busybox
+Section: net
+Architecture: aarch64-3.10
+Installed-Size: 0
+Filename: keenetic-vpn_2.2.2_aarch64-3.10.ipk
+Size: 1724252
+Maintainer: pegakmop
+Description: Keenetic VPN Manager + fqdn-sync 2.2.2 created by pegakmop
+
+Package: neofit
+Version: 1.1.1-5.8.2
+Depends: busybox
+Section: net
+Architecture: aarch64-3.10
+Installed-Size: 0
+Filename: neofit_1.1.1-5.8.2_aarch64-3.10.ipk
+Size: 1556439
+Maintainer: pegakmop
+Description: Automates configuration neofit version 1.1.1-5.8.2 of sing-box-go and xray: importing profiles via a link, compiling JSON configuration, creating system interfaces.
+
+Package: pegakmop-site-host
+Version: 1.0.0
+Depends: libc
+Section: net
+Architecture: aarch64-3.10
+Installed-Size: 5374367
+Filename: pegakmop-site-host_1.0.0_aarch64-3.10.ipk
+Size: 2180752
+Maintainer: pegakmop
+Description: Static site hosting for Keenetic router
+
+Package: sing-box-go
+Version: 1.13.4
+Depends: libc, libssp, librt, libpthread
+Section: net
+Architecture: aarch64-3.10
+Installed-Size: 0
+Filename: sing-box-go_1.13.4_aarch64-3.10.ipk
+Size: 10932977
+Maintainer: Entware team, https://entware.net
+Description: Sing-box is a fast, customizable and universal proxy platform that
+
+Package: xray-amnezia
+Version: 26.2.6
+Depends: busybox
+Section: net
+Architecture: aarch64-3.10
+Installed-Size: 0
+Filename: xray-amnezia_26.2.6_aarch64-3.10.ipk
+Size: 7819006
+Maintainer: pegakmop
+Description: Xray core with AmneziaVPN patches. Supports VLESS, VMESS, Trojan, Shadowsocks with traffic obfuscation.
+
+Package: xray-core
+Version: v26.2.6
+Depends: libc, libssp, librt, libpthread, ca-bundle
+Section: net
+Architecture: aarch64-3.10
+Installed-Size: 11488824
+Filename: xray-core_v26.2.6_aarch64-3.10.ipk
+Size: 11126001
+Maintainer: Entware team, https://entware.net
+Description: Project X originates from XTLS protocol, providing a set of network tools.
+
+Package: xray
+Version: v26.2.6
+Depends: libc, libssp, librt, libpthread, xray-core
+Section: net
+Architecture: aarch64-3.10
+Installed-Size: 4467
+Filename: xray_v26.2.6_aarch64-3.10.ipk
+Size: 2840
+Maintainer: Entware team, https://entware.net
+Description: scripts & configs.
